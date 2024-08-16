@@ -1,0 +1,45 @@
+.button-hollow {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 3px solid var(--primary);
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button-hollow:hover {
+  background-color: var(--primary-extra-light);
+  color: var(--primary-dark);
+  border: 3px solid var(--primary-dark);
+}
+
+.button-solid {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--gradient-primary-light);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: none;
+
+  * {
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+  }
+}
+
+.button-solid:hover {
+  opacity: 0.8;
+}

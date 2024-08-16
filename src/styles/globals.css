@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Rosmatika';
+  src: url('../assets/fonts/Rosmatika.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  overflow-x: hidden !important;
+
+  --container-width: 86.75;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.container {
+  max-width: 73.125rem;
+  margin-inline: auto;
+  width: calc(var(--container-width) * 1%);
+}
+
+.scrollMarginTop {
+  scroll-margin-top: 4rem;
+}
+
+.overflow_y_hidden {
+  overflow-y: hidden;
+}
+
+@media (min-width: 80em) {
+  .scrollMarginTop {
+    scroll-margin-top: 6rem;
+  }
+
+  .overflow_y_hidden {
+    overflow-y: auto;
+  }
+}
+
+main {
+  background-color: var(--neutral-gray);
+}
