@@ -2,7 +2,6 @@
   <img src="https://causa-dev-public-images.s3.amazonaws.com/LogoCausaDev1k.png" width="400px" align="center" alt="Logo do Causa Dev" />
   <h1 align="center">Programação orientada a propósito</h1>
   <p align="center">
-    ✨ <h2>De Bico Cheio - ONG com Site</h2> ✨
   </p>
 </p>
 
